@@ -6,3 +6,4 @@ class Initial:
 
 initial = Initial()
 print(initial.value)
+print("はーい")
