@@ -1,23 +1,17 @@
 import random
+import pygame
 
-class Initial:
+class Application:
     def __init__(self) -> None:
-        self.value = random.random()
+        pygame.init()
 
-class Second(Initial):
-    pass
 
-class Third(Second):
-    pass
+
+
+
 
 class Human:
     def __init__(self) -> None:
         self.name = "元気"
 
-initial = Initial()
-second = Second()
-print(initial.value)
-print(second.value, "こんにちは")
-
-print(initial.value)
-print("はーいじゃないです")
+app = Application()
