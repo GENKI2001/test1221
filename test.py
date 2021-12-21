@@ -10,5 +10,5 @@ class Second(Initial):
 initial = Initial()
 second = Second()
 print(initial.value)
-print(second.value)
+print(second.value, "こんにちは")
 
