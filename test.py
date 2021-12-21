@@ -10,6 +10,10 @@ class Second(Initial):
 class Third(Second):
     pass
 
+class Human:
+    def __init__(self) -> None:
+        self.name = "元気"
+
 initial = Initial()
 second = Second()
 print(initial.value)
