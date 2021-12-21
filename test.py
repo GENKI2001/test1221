@@ -7,6 +7,9 @@ class Initial:
 class Second(Initial):
     pass
 
+class Third(Second):
+    pass
+
 initial = Initial()
 second = Second()
 print(initial.value)
