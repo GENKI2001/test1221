@@ -12,3 +12,5 @@ second = Second()
 print(initial.value)
 print(second.value, "こんにちは")
 
+print(initial.value)
+print("はーい")
